@@ -6,7 +6,7 @@ REMOVE_SPEC = True
 REMOVE_BUILD = True
 
 
-scripts = ("server.py", "client.py")
+scripts = [script for script in os.listdir() if script.endswith('.py') and script != 'exe.py']
 
 
 for script in scripts:
