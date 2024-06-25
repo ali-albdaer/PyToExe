@@ -13,7 +13,7 @@ A simple script that converts Python scripts into executables using PyInstaller.
 2. Navigate to the project directory:
 
     ```shell
-    cd pytoexe
+    cd PyToExe
     ```
 
 3. Install the required dependencies:
