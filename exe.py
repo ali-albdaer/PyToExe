@@ -12,7 +12,7 @@ scripts = [script for script in os.listdir() if script.endswith('.py') and scrip
 for script in scripts:
     try: 
         print(f'Generating executable for {script}...')
-        os.system(f'python -m PyInstaller {script} --onefile --distpath /apps')
+        os.system(f'python -m PyInstaller {script} --onefile')
 
         if REMOVE_SPEC:
             print(f'Removing {script[:-3]}.spec file...')
@@ -26,4 +26,4 @@ for script in scripts:
         print(f'Error generating executable for {script}: {e}')
 
     else:
-        print(f'Executable file generated: apps/{script[:-3]}.exe')
+        print(f'Executable file generated: {script[:-3]}.exe')

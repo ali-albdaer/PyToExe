@@ -34,7 +34,7 @@ A simple script that converts Python scripts into executables using PyInstaller.
     python exe.py
     ```
 
-4. Your executables will be in the /apps directory
+4. Your executables will be in the dist directory
 
 ## License
 
