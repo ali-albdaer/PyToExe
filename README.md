@@ -10,13 +10,7 @@ A simple script that converts Python scripts into executables using PyInstaller.
     git clone https://github.com/ali-albdaer/PyToExe.git
     ```
 
-2. Navigate to the project directory:
-
-    ```shell
-    cd PyToExe
-    ```
-
-3. Install the required dependencies:
+2. Install the required dependencies:
 
     ```shell
     pip install -r requirements.txt
@@ -24,7 +18,7 @@ A simple script that converts Python scripts into executables using PyInstaller.
 
 ## Usage
 
-1. Copy and paste your scripts in the project directory.
+1. Copy and paste your scripts in the root directory.
 
 2. [Optional] change the global vars in the script.
 
